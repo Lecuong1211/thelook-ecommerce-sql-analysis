@@ -1,3 +1,10 @@
+/*
+Project: theLook E-commerce SQL Analysis
+File: [Điền tên file của bạn, ví dụ: 03_revenue_analysis.sql]
+Business question: [Điền mục đích file, ví dụ: Phân tích xu hướng doanh thu theo tháng]
+Input grain: [Ví dụ: 1 row = 1 order item]
+Output grain: [Ví dụ: 1 row = 1 tháng]
+*/
 WITH customer_metrics AS (
   SELECT
     user_id,
